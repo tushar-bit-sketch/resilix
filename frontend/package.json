@@ -2,13 +2,14 @@
   "name": "resilix-frontend",
   "private": true,
   "version": "1.0.0",
-  "description": "RESILIX — Secure Predictive Infrastructure Resilience System (Seva First Innovation Challenge 2026)",
+  "description": "RESILIX \u2014 Secure Predictive Infrastructure Resilience System (Seva First Innovation Challenge 2026)",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5173",
-    "build": "node scripts/build_static.mjs",
+    "build": "vite build",
     "typecheck": "tsc --noEmit",
-    "preview": "vite preview --host 127.0.0.1 --port 4173"
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "build:local": "node scripts/build_static.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
