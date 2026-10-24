@@ -1,0 +1,12 @@
+{
+  "name": "resilix-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "description": "RESILIX — Secure Predictive Infrastructure Resilience System (Seva First Innovation Challenge 2026)",
+  "scripts": {
+    "start:backend": "cd backend && python3 -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test:backend": "cd backend && python3 run_tests.py"
+  }
+}

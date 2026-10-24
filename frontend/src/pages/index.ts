@@ -1,0 +1,9 @@
+export { default as LoginPage } from '../App';
+export { default as DashboardPage } from '../App';
+export { default as EquipmentListPage } from '../App';
+export { default as EquipmentDetailPage } from '../App';
+export { default as AlertsPage } from '../App';
+export { default as EventsAndSyncPage } from '../App';
+export { default as AnalyticsPage } from '../App';
+export { default as SecurityCenterPage } from '../App';
+export { default as SettingsPage } from '../App';

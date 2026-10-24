@@ -1,0 +1,11 @@
+fastapi>=0.92.0
+uvicorn>=0.17.6
+pydantic>=1.10.4
+numpy>=1.24.0
+cryptography>=38.0.0
+httpx>=0.23.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.5
+# Optional if running with external SQLAlchemy / pytest runners:
+# sqlalchemy>=2.0.0
+# pytest>=7.4.0
